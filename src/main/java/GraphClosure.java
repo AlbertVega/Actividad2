@@ -66,20 +66,11 @@ public class GraphClosure
     // Driver Code
     public static void main (String[] args)
     {
-        /* Let us create the following weighted graph
-           10
-        (0)------->(3)
-        |         /|\
-      5 |          |
-        |          | 1
-        \|/        |
-        (1)------->(2)
-           3           */
+
         int[][] graph = new int[][]{  {0, 1, 0, 0},
                                       {1, 0, 1, 0},
                                       {0, 0, 0, 1},
                                       {0, 0, 0, 0}
-
         };
 
         // Print the solution
